@@ -17,7 +17,7 @@
 ## 四、查看运行结果
 Actions > auto-report-safe-shangqiuxueyuan > build  
 只要全部状态最后都出现√，就表示成功了。
-可以在checkin中看详细结果，“上报成功”或者“不能重复上报”。
+可以在checkin中看详细结果，“成功”或者“不能重复上报”。
 
 此后，将会在每天10:00-10:45之间和22:00-22:45之间各报平安一次。  
 若有其它需求，可以在[.github/workflows/run.yml]中自行修改。
