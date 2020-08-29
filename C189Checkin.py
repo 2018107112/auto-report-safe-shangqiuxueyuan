@@ -3,8 +3,8 @@ gonghao = ""
 shoujihao = ""
 
 if(gonghao == "" or shoujihao == ""):
-    gonghao = input("-----")
-    shoujihao = input("-----")
+    gonghao = input(" ")
+    shoujihao = input(" ")
     
 def main():
     #gonghao='${{ secrets.GH }}'
@@ -17,6 +17,7 @@ def main():
     xiangying=r.post(url, params = params)
     jieguo=xiangying.text #dict形式，但是是str格式
     jieguo=eval(jieguo) #字符串转字典类型，就可以使用dict方法操作
+    print(riqi)
     print(jieguo["message"])
     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
     return 1
