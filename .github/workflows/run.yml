@@ -30,7 +30,7 @@ jobs:
       run: |
         gonghao='${{ secrets.GH }}'
         shoujihao='${{ secrets.SJH }}'
-        random_time=$(($RANDOM % 3))
+        random_time=$(($RANDOM % 10))
         echo "等待 ${random_time} 分钟后开始签到"
         for((i=1;i<=${random_time};i++));  
         do
