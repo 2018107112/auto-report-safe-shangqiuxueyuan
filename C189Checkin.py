@@ -1,4 +1,4 @@
-iimport requests, time
+import requests, time
 
 gonghao = ""
 shoujihao = ""
