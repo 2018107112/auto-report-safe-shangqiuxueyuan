@@ -68,4 +68,5 @@ jobs:
         ${user_list[$i]}
         ${pwd_list[$i]}
         EOF
+        sleep 1m
         done
