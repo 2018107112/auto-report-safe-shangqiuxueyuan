@@ -9,7 +9,6 @@
 在Settings里面的Secrets里面，分别添加名为GH,SJH的两个变量 ，值依次为自己的工号和手机号，不可以空，更不可以不设置。
 其余信息均已在代码中写成固定值，比如地点固定为河南省商丘市梁园区商丘学院。
 
-
 ## 三、启用Action
 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them**  
 2 修改任意文件后提交一次，比如对README.MD文件随便增加一个空格再保存。
