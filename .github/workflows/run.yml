@@ -45,15 +45,10 @@ jobs:
         do
         pwd_list[${#pwd_list[*]}]=${p}
         done
-        
-        for u in ${user[*]}
-        do
-        user_list[${#user_list[*]}]=${u}
-        done
 
         for k in ${age[*]}
         do
-        pwd_list[${#age_list[*]}]=${k}
+        age_list[${#age_list[*]}]=${k}
         done
 
         user_num=${#user_list[*]}
